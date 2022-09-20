@@ -22,7 +22,7 @@ import {ImStarFull} from 'react-icons/im'
 import {FiPhoneCall} from 'react-icons/fi'
 import {MdOutlineEmail} from 'react-icons/md'
 
-import ReactSlider from '../ReactSlider'
+import Navbar from '../Navbar'
 import './index.css'
 
 class Home extends Component {
@@ -310,7 +310,7 @@ class Home extends Component {
             industry.Lorem Ipsum has been the industry's standard dummy ever
             since the 1500s.{' '}
           </p>
-          <ReactSlider logoImg={logoImg} />
+          <Navbar logoImg={logoImg} />
         </div>
         <div>
           <h1 className="heading"> Reviews </h1>
