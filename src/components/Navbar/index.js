@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css'
 
 import './index.css'
 
-const ReactSlider = () => {
+const Navbar = () => {
   const settings = {
     dots: true,
     slidesToShow: 3,
@@ -32,5 +32,5 @@ const ReactSlider = () => {
   )
 }
 
-export default ReactSlider
+export default Navbar
 
